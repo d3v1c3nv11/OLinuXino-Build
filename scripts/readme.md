@@ -19,7 +19,6 @@ cd OLinuXino-Build
 ### 3. Build bootable image 
 
 ```bash
-cd scripts
 sudo ./build-image.sh <platform>
 ```
 Suported platforms:
