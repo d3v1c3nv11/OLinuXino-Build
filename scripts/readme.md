@@ -1,6 +1,6 @@
 # WORK IN PROGRESS >>>>>>>>> OLinuXino Build Instructions
 
-## Linux
+## UBUNTU 16.04.3 LTS
 
 ### 1. Getting source code and helper scripts
 	
