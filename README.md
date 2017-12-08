@@ -1,2 +1,2 @@
 # OLinuXino Builder
-Build scripts for generating olimexino images
+Build scripts for generating OLinuXino images
