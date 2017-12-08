@@ -51,10 +51,11 @@ cleanup() {
     umount "$TEMP/boot" || true
     umount "$TEMP/rootfs" || true
     kpartx -sd "$TEMP/$IMAGE" || true
-    rmdir "$TEMP/boot"
-    rmdir "$TEMP/rootfs"
-    rm "$TEMP/*" || true
-    rmdir "$TEMP"
+    rm -rf "$TEMP/boot"
+    rm -rf "$TEMP/rootfs"
+    rm -rf "$TEMP/*" || true
+    rm -rf "$TEMP"
+    mv "$IMAGE ../out/$IMAGE"
     exit $arg
 }
 trap cleanup EXIT

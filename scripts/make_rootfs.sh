@@ -446,8 +446,8 @@ if [ -n "$LINUX" -a "$LINUX" != "-" ]; then
 fi
 
 # Clean up
-rm -f "$DEST/usr/bin/qemu-aarch64-static"
-rm -f "$DEST/usr/sbin/policy-rc.d"
-rm -f "$DEST/var/lib/dbus/machine-id"
+rm -rf "$DEST/usr/bin/qemu-aarch64-static"
+rm -rf "$DEST/usr/sbin/policy-rc.d"
+rm -rf "$DEST/var/lib/dbus/machine-id"
 
 echo "Done - installed rootfs to $DEST"
