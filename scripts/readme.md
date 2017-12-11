@@ -7,7 +7,7 @@
 ```bash
 cd ~/
 git clone https://github.com/d3v1c3nv11/OLinuXino-Build.git
-cd OLinuXino-Build
+cd OLinuXino-Build/scripts
 ```
 ### 2. Setup toolchain
 ```bash
